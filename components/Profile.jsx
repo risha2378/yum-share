@@ -20,20 +20,24 @@ const Profile = () => {
 
 const styles = StyleSheet.create({
     image: {
+        alignSelf: 'center',
         width: 150,
         height: 150,
-        marginBottom: 20,
+        marginBottom: 10,
     },
     text: {
         fontSize: 20,
         fontWeight: 'bold',
-        marginLeft: 5,
+        marginRight: 5,
+        alignSelf: 'center',
+        marginBottom: 5,
     },
     desc: {
         fontSize: 15,
         fontWeight: 'normal',
         marginLeft: 5,
-        numberOfLines: 5
+        numberOfLines: 5,
+        alignSelf: 'center'
         
     }
 })
