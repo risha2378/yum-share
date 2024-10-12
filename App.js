@@ -4,6 +4,8 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import PostRecipe from './components/PostRecipe';
 import Nav from './components/Nav';
 import FindRecipe from './components/FindRecipe';
+import Profile from './components/Profile';
+import SavedRecipe from './components/SavedRecipe';
 
 const Stack = createNativeStackNavigator();
 
@@ -22,6 +24,14 @@ export default function App  () {
         <Stack.Screen
           name="FindRecipe"
           component={FindRecipe}
+        />
+         <Stack.Screen
+          name="SavedRecipe"
+          component={SavedRecipe}
+        />
+         <Stack.Screen
+          name="Profile"
+          component={Profile}
         />
 
       </Stack.Navigator>

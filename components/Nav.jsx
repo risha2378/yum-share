@@ -12,6 +12,16 @@ const Nav = ({ }) => {
       <Button
         title="FindRecipe"
         onPress={() => navigation.navigate('FindRecipe')}
+        
+      />
+      <Button
+        title="SavedRecipe"
+        onPress={() => navigation.navigate('SavedRecipe')}
+        
+      />
+      <Button
+        title="Profile"
+        onPress={() => navigation.navigate('Profile')}
       />
     </View>
   );
