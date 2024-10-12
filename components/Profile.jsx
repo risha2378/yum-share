@@ -26,11 +26,15 @@ const styles = StyleSheet.create({
     },
     text: {
         fontSize: 20,
-        fontWeight: 'bold'
+        fontWeight: 'bold',
+        marginLeft: 5,
     },
     desc: {
         fontSize: 15,
-        fontWeight: 'normal'
+        fontWeight: 'normal',
+        marginLeft: 5,
+        numberOfLines: 5
+        
     }
 })
 
