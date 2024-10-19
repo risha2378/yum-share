@@ -33,6 +33,11 @@ export default function App  () {
           name="Profile"
           component={Profile}
         />
+        <Stack.Screen
+          name="Recipe"
+          component={Recipe}
+        />
+
 
       </Stack.Navigator>
     </NavigationContainer>
