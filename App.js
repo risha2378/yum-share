@@ -6,6 +6,7 @@ import Nav from './components/Nav';
 import FindRecipe from './components/FindRecipe';
 import Profile from './components/Profile';
 import SavedRecipe from './components/SavedRecipe';
+import Recipe from './components/Recipe';
 
 const Stack = createNativeStackNavigator();
 
